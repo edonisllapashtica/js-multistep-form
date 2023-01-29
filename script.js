@@ -39,8 +39,8 @@ function updateProgressbar() {
     }
   });
 
-  const progressActve = document.querySelectorAll(".progress-step-active");
+  const progressAcitve = document.querySelectorAll(".progress-step-active");
 
   progress.style.width =
-    ((progressActve.length - 1) / (progressSteps.length - 1)) * 100 + "%";
+    ((progressAcitve.length - 1) / (progressSteps.length - 1)) * 100 + "%";
 }
